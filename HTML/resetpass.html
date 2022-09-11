@@ -11,12 +11,13 @@
 <body>
   <div class="wrapper">
     <header>Reset Password</header>
-    <form action="#">
+    <form action="#" method="post">
       <div class="field password">
         <div class="input-area">
-          <input type="password" placeholder="Password">
+          <input name="password" type="password" placeholder="Password">
           <i class="icon fas fa-lock"></i>
           <i class="error error-icon fas fa-exclamation-circle"></i>
+          <input type="hidden">
         </div>
         <div class="error error-txt">Password can't be blank</div>
       </div>
